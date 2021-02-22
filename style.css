@@ -1,0 +1,43 @@
+body {
+  background-color: #ffffff;
+}
+
+:root {
+  --c-genel:#FB4C47;
+  --c-yesil:#035755;
+  --c-nokta:#FA5652;
+  --c-p:#4B4F51;
+  --f-span: "roboto", sans-serif;
+  --f-baslik:"Red  Hat  Display", sans-serif ;
+}
+
+.button {
+  background-color: var(--c-genel);
+  border-radius: 46px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid var(--c-genel);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: var(--f-span);
+  font-weight: 500;
+  font-style: normal;
+  height: 60px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
