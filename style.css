@@ -40,4 +40,86 @@ body {
 .button:hover {
   cursor: pointer;
 }
+
+.header {
+  padding-top: 31px;
+  padding-bottom: 56px;
+}
+
+.header .nav-wrap {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.header .nav__item {
+  color: var(--c-yesil);
+  font-family: var(--f-span);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.header .nav__item--active {
+  color: var(--c-genel);
+  pointer-events: none;
+  position: relative;
+}
+
+.header .nav__item--active::after {
+  content: "";
+  background: var(--c-nokta);
+  border-radius: 100px;
+  bottom: 0;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 25px;
+}
+
+.header .nav__img {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.header .button {
+  height: 45px;
+  margin-left: 0;
+  line-height: 22px;
+}
+
+.header .button:hover {
+  background-color: var(--c-nokta);
+  color: white;
+  border: 2px solid var(--c-yesil);
+}
+
+.header .button--c {
+  color: var(--c-genel);
+}
+
+.header .button--bg {
+  background-color: #ffffff;
+}
+
+.header .button--font-size {
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
