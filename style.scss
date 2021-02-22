@@ -560,3 +560,47 @@ body{
     }    
    
 }
+
+.footer-s{
+    .nav-f{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-a{
+        &__item{
+            font-family: var(--f-span);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 28px;
+            color: #00402E;
+        }
+    }
+    .son{
+        font-family: Gelion;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 28px;
+        color: #415E56;
+
+color: #415E56;
+
+    }
+}
+@media screen and (max-width: 768px){
+    .section3{
+        .card{
+            min-height: 510px;
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .section3{
+        .card{
+            min-height: 510px;
+        }
+    }
+}

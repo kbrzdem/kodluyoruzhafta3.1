@@ -644,4 +644,47 @@ body {
   line-height: 77px;
   /* or 39px */
 }
+
+.footer-s .nav-f {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-s .nav-a__item {
+  font-family: var(--f-span);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #00402E;
+}
+
+.footer-s .son {
+  font-family: Gelion;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 28px;
+  color: #415E56;
+  color: #415E56;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 .card {
+    min-height: 510px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section3 .card {
+    min-height: 510px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
